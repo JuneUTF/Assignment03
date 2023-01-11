@@ -1,0 +1,37 @@
+@media screen and (max-width:576px) {
+    #nav-bar .container {height: auto;}
+#nav-bar .container a.col-12 {
+    display: block;
+    width: 100%;
+}
+#job-info .container  {
+    display: block;
+    width: 100%;
+}
+#job-info .container .box{
+ margin: 10px 0;
+}
+#certificate .certificate-item {
+    display: block;
+    width: 100%;
+}
+#certificate .certificate-item .certificate-list:nth-child(even) {
+    border-left: none;
+}
+#certificate .certificate-item .certificate-list{
+    padding: 10px;
+    border-bottom: 1px solid red;
+}
+#project .project-flex {
+    display: block;
+    width: 100%;
+}
+#project .project-flex .project-time {display: block; height: auto;}
+.project-flex .project-item .project-time > span{
+margin: 0  0 0 10px;
+}
+.project-flex .project-item .project-time .june{
+margin: 0  0 0 10px;
+padding: 0;
+}
+}

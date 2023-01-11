@@ -1,0 +1,65 @@
+@media screen and (max-width: 992px) {
+.fullname{display: none;}
+/* set lại height #nav-bar >.container */
+#nav-bar >.container{height: 40px;}
+#nav-bar >.container > .row >a {
+    font-size: 11px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-left: 1px solid gray;
+}
+/* tạo border right cho thẻ a cuối */
+#nav-bar >.container > .row >a:last-child {
+    border-right: 1px solid gray;
+}
+#job-info > .container{display: grid;
+padding: 20px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+/* cấu hình cho gird */
+grid-template-areas:
+      "kinhnghiem hocvan"
+      "sothich hocvan"
+      "ngongu hocvan"
+      "hoatdong kynang"
+      "hoatdong kynang"
+      ;
+}
+#job-info > .container > .box > .box-list {padding: 5px};
+/* chứng chỉ */
+
+#certificate .certificate-list {
+  
+}
+#certificate .certificate-item .certificate-list img {
+    height: auto;
+    width: 100%;
+}
+#certificate .certificate-item .certificate-list .text {
+    padding-left: 0;
+}
+#certificate .certificate-item .certificate-list .text h3 {
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 15px;
+}
+#certificate .certificate-item .certificate-list .text h3 {
+padding: 5px;}
+/* project */
+.project-flex .project-item .project-time {height: 80px;}
+.project-flex .project-item .project-time .june{
+    display: block;
+    padding-top: 15px;
+}
+.project-flex .project-item .project-time .june p { padding: 0;height: 20px;line-height: 1;}
+.project-flex .project-item .project-name {
+    height: auto;
+    padding: 5px;
+    line-height: 1.2;
+}
+.project-flex .project-item .project-text p.text {
+    word-wrap:break-word;
+}
+}
